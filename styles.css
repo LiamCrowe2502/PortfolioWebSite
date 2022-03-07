@@ -188,7 +188,7 @@ header {
     margin-left: 0;
   }
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 600px) {
   header {
     background-color: white;
  }
