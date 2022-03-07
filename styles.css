@@ -188,7 +188,7 @@ header {
     margin-left: 0;
   }
 
-@media only screen and (max-width: 600x) {
+@media only screen and (max-width: 840px) {
   header {
     background-color: white;
  }
@@ -209,7 +209,7 @@ header {
      display: flex;
    }
    
-  .mobile-menu {
+   .mobile-menu {
     margin-top: 50px;
     margin-bottom: 25px;
     background-color: aquamarine;
@@ -256,13 +256,14 @@ header {
   }
 
   .profile-name {
-    font-size: 24px;
+    font-size: 2rem;
     text-align: center;
     line-height: 1.5;
     letter-spacing: 2px;
   }
 
   .line {
+    display: block;
     height: 1px;
     width: 10em;
     background-color: white;
@@ -285,4 +286,6 @@ header {
     font-size: 14px;
     letter-spacing: 1px;
   }
+
+
 }
