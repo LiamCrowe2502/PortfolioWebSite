@@ -25,13 +25,24 @@ header {
 
 #brand {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   display: flex;
   align-items: center;
 }
 
+#brand .slash {
+  font-weight: 100;
+  font-size: 18px;
+}
+
+#brand .jobTitle {
+  font-weight: 100;
+  font-size: 18px;
+  letter-spacing: .1em;
+}
+
 #brand a {
-  color: rgb(4, 63, 224);
+  color: #498afb;
 }
 
 .nav-ul {
@@ -86,7 +97,7 @@ header {
 #hamburger-icon div {
   width: 35px;
   height: 3px;
-  background-color: rgb(4, 63, 224);
+  background-color: #498afb;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -168,7 +179,7 @@ header {
   .social-list i:hover {
     color: white;
     transition: 0.1s;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .profile-position {
@@ -188,6 +199,7 @@ header {
     margin-left: 0;
   }
 
+
 @media only screen and (max-width: 840px) {
   header {
     background-color: white;
@@ -206,13 +218,25 @@ header {
   }
 
    #brand .jobTitle {
-     display: flex;
+    display: flex;
+    letter-spacing: .1em;
    }
    
    .mobile-menu {
     margin-top: 50px;
     margin-bottom: 25px;
-    background-color: aquamarine;
+    background-color: #498afb;
+    transition: 0.2s;
+  }
+
+  .mobile-menu a {
+    color: white;
+  }
+
+  .mobile-menu a:hover {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    transition: 0.2;
   }
 
   .card {
@@ -237,12 +261,13 @@ header {
 
   .social-list {
     display: inline-block;
-    justify-content: space-around;
+    justify-content:space-around;
     list-style: none;
     margin: 0;
     padding: 0;
     width: 50px;
-    margin: 0 auto;
+    margin: 0;
+    text-align: center;
   }
 
   .social-list i {
@@ -257,7 +282,7 @@ header {
 
   .profile-name {
     font-size: 2rem;
-    margin: 0;
+    margin-left: -25px;
     padding: 0;
     text-align: center;
   }
@@ -275,6 +300,7 @@ header {
     text-transform: uppercase;
     text-align: center;
     font-size: 18px;
+    margin-left: -25px;
     margin-bottom: .5em;
   }
 
@@ -282,8 +308,8 @@ header {
     font-weight: 300;
     margin-bottom: 0;
     text-align: center;
+    margin-left: -25px;
     font-size: 14px;
   }
-
 
 }
